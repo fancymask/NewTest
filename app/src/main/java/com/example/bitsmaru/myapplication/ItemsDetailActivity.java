@@ -59,6 +59,9 @@ public class ItemsDetailActivity extends ActionBarActivity {
             //
             // http://developer.android.com/design/patterns/navigation.html#up-vs-back
             //
+
+
+
             navigateUpTo(new Intent(this, ItemsListActivity.class));
             return true;
         }

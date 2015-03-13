@@ -33,11 +33,14 @@ public class ItemsDetailFragment extends Fragment {
      * fragment (e.g. upon screen orientation changes).
      */
     public ItemsDetailFragment() {
+
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
 
         if (getArguments().containsKey(ARG_ITEM_ID)) {
             // Load the dummy content specified by the fragment
